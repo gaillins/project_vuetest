@@ -24,19 +24,22 @@
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/grade">Grade</a>
+          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="#"
               id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
+              role="button"
+              data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Dropdown link
+              API
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="/golds">ราคาทองวันนี้</a>
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
