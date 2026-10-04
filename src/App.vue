@@ -27,6 +27,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/grade">Grade</a>
           </li>
+
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -40,8 +41,9 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="/golds">ราคาทองวันนี้</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="/products_api">สินค้า</a>
+              <a class="dropdown-item" href="/product_table">ตารางสินค้า</a>
+              <a class="dropdown-item" href="/user1">รายชื่อผู้ใช้</a>
             </div>
           </li>
         </ul>
@@ -71,6 +73,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #2285ff;
 }
 </style>

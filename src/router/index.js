@@ -43,6 +43,33 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Api_golds.vue"),
   },
+  {
+    path: "/products_api",
+    name: "products_api",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Product_api.vue"),
+  },
+  {
+    path: "/product_table",
+    name: "product_table",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Product_table.vue"),
+  },
+  {
+    path: "/user1",
+    name: "user1",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/User1.vue"),
+  },
 ];
 
 const router = createRouter({
